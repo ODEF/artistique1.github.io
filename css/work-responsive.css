@@ -1,0 +1,24 @@
+
+
+/* .main-work{
+   
+    margin-left: 15rem;
+    margin-right: 5rem;
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: 15rem  auto 15rem; 
+    column-gap: 7rem;
+    row-gap: 5rem;
+    
+} */
+
+
+.img-card{
+    background-color: blue;
+    width: 25vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
