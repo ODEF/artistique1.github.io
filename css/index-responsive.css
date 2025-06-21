@@ -712,6 +712,11 @@ footer{
   font-style: normal;
 } */
 
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
 
 h1{
     font-family: "Source Code Pro", monospace;
@@ -763,6 +768,7 @@ section{
 }
 
 .img-top{
+    
     align-items: center;
     justify-content: center;
    
@@ -825,11 +831,6 @@ section{
 }
 
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-  overflow-x: hidden;
-}
 
 /* 1 */
 .open-btn {
@@ -1000,6 +1001,11 @@ body {
   z-index: 2;
 }
 
+.panel4, .panel5  {
+ width: 80vw;
+}
+
+
 /* Hide all panels by default */
 .panel, .panel2, .panel3, .panel4, .panel5 {
   transform: translateY(100%); 
@@ -1033,7 +1039,7 @@ body {
 
 .panel-img{
     display: inline;
-    width: 45rem;
+    width: 12rem;
 }
 
 .panel-text{
@@ -1052,12 +1058,9 @@ body {
   font-style: normal;
 }
 
-.panel4, .panel5  {
- width: 80vw;
-}
 
-footer{
-    position: relative;
-    bottom: -25vw;
+
+.footer{
+  margin-left: 4rem;
 }
 }
